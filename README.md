@@ -26,3 +26,28 @@ Pada bagian About Me ini berisikan tentang diri saya dan skill yang saya miliki:
 Selanjutnya pada bagian Certificates merupakan tampilan sertifikat yang pernah saya dapatkan
 
 ## Penjelasan Code Setiap Section/Fitur
+### Navbar 
+Disini saya menggunakan class .navbar guna mengatur warna background, shadow, dan efek hover pada menu.
+### Hero Section 
+.hero {
+    height: 100vh; // 
+    background: linear-gradient(...), url("aku.jpeg");
+}
+Pada code ini guna untuk memenuhi 1 layar dan memberikan efek transparan pada background, lalu saya memasukkan foto saya sebagai background dari Home dengan format "aku.jpeg"
+### Skill Progress Bar
+<div class="skill-bar">
+    <div class="skill-fill corel"></div>
+</div>
+Saya menggunakan gradient agar terlihat lebih modern
+### Certificates
+.polaroid {
+    transform: rotate(-2deg);
+    transition: 0.3s ease;
+}
+Pada certificates saya menggunakan frame agar terlihat lebih menarik, kemudian polaroid dengan rotasi -2
+## Teknologi yang Digunakan
+- HTML --> Struktur dasar website
+- CSS --> Tempat styling dan animasi website
+- Google Fonts --> Mengambil font Poppins
+- Font Custom --> Daughter of Fortune (font nama)
+- Bootsstrap --> Layout dan komponen tambahan
